@@ -7,12 +7,9 @@ st.set_page_config(
 
 st.title("📈 Stock Market Intelligence Dashboard")
 
-st.markdown("""
-### Features
+st.success("Application is running successfully.")
 
-- Technical Analysis
-- Trading Signals
-- Sentiment Analysis
-- Portfolio Analytics
-- XGBoost Forecasting
-""")
+st.write("Technical Analysis")
+st.write("Sentiment Analysis")
+st.write("Portfolio Analytics")
+st.write("Forecasting")
